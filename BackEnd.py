@@ -191,16 +191,3 @@ class BackEnd:
 
     def shutdown(self):
         self.sm.exit()
-
-    def print_status(self):
-        # Gets the value of the brightness variable
-        while True:
-            speed = self.sm.system.speed
-            print(speed)
-            time.sleep(1)
-
-if __name__ == '__main__':
-    m = BackEnd()
-    m.setup()
-    m.run()
-
