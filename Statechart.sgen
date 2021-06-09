@@ -1,0 +1,15 @@
+GeneratorModel for yakindu::python {
+
+	const PROJECT : string = "ShermanEngine"
+
+	const FOLDER : string = "srcgen"
+
+	statechart Statechart_v2 {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "src"
+		}
+	}
+}
